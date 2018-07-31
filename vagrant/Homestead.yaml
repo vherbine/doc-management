@@ -1,0 +1,17 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 1
+provider: virtualbox
+
+folders:
+    -
+        map: 'C:\Users\vherb\Workspace\sample1'
+        to: /home/vagrant/code/sample1
+sites:
+    -
+        map: sample1
+        to: /home/vagrant/code/sample1/public
+databases:
+    - homestead
+name: workspace
+hostname: workspace
