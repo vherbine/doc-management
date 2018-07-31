@@ -89,6 +89,8 @@ class DocumentController extends Controller
 
             Excel::store(new DocumentsExport($document), $filename, 'dropbox');
 
+	    $authorizationToken = env('DROPBOX_AUTHORIZATION_TOKEN');
+	    $client = new Client($authorizationToken);
             $link = $client->getTemporaryLink($filename);
             return $link;
 	}
