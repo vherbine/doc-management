@@ -1,0 +1,30 @@
+[
+  { 
+    "content": {
+      "field1": 1,
+      "field2": "Two",
+      "field3": "2018-07-28",
+      "field4": "Four"
+    },
+    "meta": {
+      "created": "2018-07-28",
+      "modified": "2018-07-28",
+      "exported": "2018-07-28",
+      "user": "misty"
+    }
+  },
+  { "content": {
+      "col1": 2,
+      "col2": "Two by Two",
+      "col3": "2018-07-29",
+      "col4": 4,
+      "col5": "Five"
+    },
+    "meta": {
+      "created": "2018-07-29",
+      "modified": "2018-07-29",
+      "exported": "2018-07-29",
+      "user": "checkers"
+    }
+  }
+]
